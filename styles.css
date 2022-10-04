@@ -3,43 +3,36 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #ece6c2;
+    background: #ece6c2;
 }
 
 h1 {
     color: white;
-    margin: 1em;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 500;
 }
 
 .navbar {
     background: #6F5643;
-    margin-bottom: 1em;
     font-family: "Comfortaa";
     text-transform: uppercase;
 }
 
 .navbar a {
     text-decoration: none;
-    float:none;
     text-align: center;
     justify-content: center;
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 1rem 1rem;
 }
 
-.navbar p {
-    font-size: 2rem;
-    font-weight: 200;
+.navbar a:hover {
+    color:#d2a24c
 }
 
 .navbar h1 {
     text-align: center;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    justify-content: center;
+    font-size: 6rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
