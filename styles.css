@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #6F5643;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Fira Code';
+    font-weight: 200;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+}
